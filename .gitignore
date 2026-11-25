@@ -1,0 +1,23 @@
+# Secretos y configuración local
+.env
+
+# Discos e imágenes de máquinas virtuales (pesan gigas)
+*.qcow2
+*.iso
+*.img
+
+# Python
+__pycache__/
+.venv/
+
+# Registro automático de sesiones: materia prima, no se publica
+registro/
+
+# Documentos internos (plan de los tutores, actualizaciones, notas)
+privado/
+
+# Configuración personal del asistente de IA (su uso se declara en docs/uso-ia.md)
+CLAUDE.md
+CLAUDE.local.md
+AGENTS.md
+.claude/
