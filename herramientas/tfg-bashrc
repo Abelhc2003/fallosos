@@ -1,0 +1,10 @@
+# tfg-bashrc: configuración de la terminal del TFG. La carga tfg.sh; no se usa sola.
+
+# Primero, tu configuración de siempre (colores, alias, autocompletado...).
+[[ -f ~/.bashrc ]] && source ~/.bashrc
+
+# Después, el registro de órdenes.
+source "$FALLOSOS_REPO/herramientas/registro-ordenes.sh"
+
+# Y una marca en el prompt para saber que estás grabando.
+PS1="(tfg) $PS1"
