@@ -30,6 +30,9 @@ se aprende primero con ayuda y después se repite a solas, que es la línea base
 - `herramientas/instalar-registro-vm.sh`, `traer-registro-vm.sh` y `revertir-vm.sh`:
   el mismo registro de órdenes dentro de la máquina virtual, y cómo sacarlo antes
   de volver a la instantánea limpia.
+- `.claude/skills/`: las instrucciones que uso con Claude Code para explicar, documentar
+  las sesiones, registrar decisiones y preparar las actualizaciones a los tutores
+  (ver [uso de IA](docs/uso-ia.md)).
 
 ## Licencia
 

@@ -9,7 +9,7 @@ irán en la decisión 0009 (pendiente de escribir).
 | Herramienta | Para qué la uso |
 | --- | --- |
 | Claude (chat en claude.ai) | Entender conceptos, preparar guías de trabajo, revisar ideas y planificar |
-| Claude Code (en el portátil y el PC) | Asistente en el repositorio: explicar órdenes y conceptos, enseñarme las averías, redactar y editar ficheros con mi aprobación, preparar la bitácora a partir del registro |
+| Claude Code (en el portátil y el PC) | Asistente en el repositorio: explicar órdenes y conceptos, enseñarme las averías, redactar y editar ficheros con mi aprobación, preparar la bitácora a partir del registro. Sus instrucciones están en [`.claude/skills/`](../.claude/skills/) |
 
 ## Cómo uso la IA
 
@@ -35,6 +35,6 @@ Una fila por sesión en la que haya usado IA. Lo más reciente, arriba.
 
 | Fecha | Herramienta | Para qué | Qué hice yo | Ficheros afectados |
 | --- | --- | --- | --- | --- |
-| 2026-11-26 | Claude (chat) | Revisar las reglas de uso de IA tras aclarar que se permite usarla en todo si entiendo lo que entrego; adaptar esta declaración, la plantilla de ficha y el método de las averías | Decidí el cambio (IA en todo, con preguntas de comprobación y prueba de dominio a solas), revisé los ficheros y los subí | `docs/uso-ia.md`, `docs/averias/`, `README.md` |
+| 2026-11-26 | Claude (chat) | Revisar las reglas de uso de IA tras aclarar que se permite usarla en todo si entiendo lo que entrego; adaptar esta declaración, la plantilla de ficha y el método de las averías; preparar las skills para publicarlas | Decidí el cambio (IA en todo, con preguntas de comprobación y prueba de dominio a solas) y publicar las skills; revisé los ficheros y los subí | `docs/uso-ia.md`, `docs/averias/`, `README.md`, `.gitignore`, `.claude/skills/` |
 | 2026-11-25 | Claude (chat) | Propuesta de estructura del repositorio, plantillas, scripts de `herramientas/` y configuración de Claude Code | Revisé cada fichero, lo probé y decidí qué adoptar y qué cambiar | Commit inicial de estructura |
 | 2026-11-24 | Claude (chat) | Guía personal de arranque: repositorio, máquina virtual y método de las averías, con la avería 01 como ejemplo guiado | Seguí la guía en mi portátil y resolví los problemas que surgieron | — |

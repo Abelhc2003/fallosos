@@ -16,8 +16,10 @@ registro/
 # Documentos internos (plan de los tutores, actualizaciones, notas)
 privado/
 
-# Configuración personal del asistente de IA (su uso se declara en docs/uso-ia.md)
+# Configuración personal del asistente de IA (su uso se declara en docs/uso-ia.md).
+# Las skills sí se publican: son las instrucciones con las que trabajo con Claude Code.
 CLAUDE.md
 CLAUDE.local.md
 AGENTS.md
-.claude/
+.claude/*
+!.claude/skills/
