@@ -10,16 +10,18 @@ Tutores: Carlos Martínez Cortés y Horacio Pérez-Sánchez.
 
 ## Estado
 
-Fase 1 de 5: catálogo de diez averías, provocadas y reparadas a mano.
+Fase 1 de 5: catálogo de diez averías, provocadas y reparadas a mano. Cada avería
+se aprende primero con ayuda y después se repite a solas, que es la línea base
+([método](docs/averias/README.md)).
 
 ## Documentación
 
 - [Decisiones](docs/decisiones/): cada elección del proyecto, con sus alternativas y su porqué.
 - [Bitácora](docs/bitacora/): una entrada por sesión de trabajo.
-- [Averías](docs/averias/): las fichas del catálogo.
+- [Averías](docs/averias/): el método de trabajo y las fichas del catálogo.
 - [Entorno](docs/entorno.md): qué es cada pieza del laboratorio y cómo funciona.
 - [Imagen base](docs/imagen-base.md): cómo se construye la máquina virtual.
-- [Uso de IA](docs/uso-ia.md): para qué he usado inteligencia artificial y para qué no.
+- [Uso de IA](docs/uso-ia.md): para qué he usado inteligencia artificial y cómo compruebo que entiendo lo que hace.
 
 ## Herramientas
 
